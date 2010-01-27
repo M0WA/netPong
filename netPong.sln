@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netPongServer", "netPongServer\netPongServer.csproj", "{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netPongDebugClient", "netPongDebugClient\netPongDebugClient.csproj", "{8C0839B3-5199-4D31-A728-E6B74499AEFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netPongClientNG", "netPongClientNG\netPongClientNG.csproj", "{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{A28033E7-8E62-44E7-96BD-BA9C1F33AB78}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\NetPongProtocol.doc = Documentation\NetPongProtocol.doc
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C930AB20-565B-4C83-AD3A-F637EEA1DF7D}.Release|Win32.ActiveCfg = Release|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8C0839B3-5199-4D31-A728-E6B74499AEFE}.Release|Win32.ActiveCfg = Release|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

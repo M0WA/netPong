@@ -1,0 +1,240 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E50EC9E9-5903-45C9-8B61-8E5A7EA0B445}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>netPongClientNG</RootNamespace>
+    <AssemblyName>netPongClientNG</AssemblyName>
+    <ManifestCertificateThumbprint>BED540F7D9AEF3495BFD47BA98199586C0F99F02</ManifestCertificateThumbprint>
+    <ManifestKeyFile>netPongClientNG_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>C:\Dokumente und Einstellungen\momo\Eigene Dateien\Visual Studio 2005\Projects\netPong\publish\netPongClientNG\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>netPongClientNG_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>3</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="netPongClientLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="netPongClientLoginForm.Designer.cs">
+      <DependentUpon>netPongClientLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="netPongClientChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="netPongClientChatForm.Designer.cs">
+      <DependentUpon>netPongClientChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="netPongClientKeySetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="netPongClientKeySetterForm.Designer.cs">
+      <DependentUpon>netPongClientKeySetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="netPongClientKeySettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="netPongClientKeySettings.Designer.cs">
+      <DependentUpon>netPongClientKeySettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="netPongClientTcpSocket.cs" />
+    <Compile Include="netPongClientDirectXSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="netPongClientDirectXSettingsForm.Designer.cs">
+      <DependentUpon>netPongClientDirectXSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="netPongClientGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="netPongClientGameForm.Designer.cs">
+      <DependentUpon>netPongClientGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="netPongClientMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="netPongClientMessageForm.Designer.cs">
+      <DependentUpon>netPongClientMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="netPongClientProgram.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Models\simple_ball.x" />
+    <EmbeddedResource Include="Models\simple_paddle.x" />
+    <Content Include="keys.ini" />
+    <None Include="..\Documentation\netPongClientNG.cd">
+      <Link>netPongClientNG.cd</Link>
+    </None>
+    <None Include="netPongClientNG_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="Textures\wood.dds" />
+    <EmbeddedResource Include="Textures\Threadplate.dds" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="netPongClientUDPGameSession.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\playerlostball.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\pong.wav" />
+    <EmbeddedResource Include="netPongClientLoginForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>netPongClientLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="netPongClientChatForm.resx">
+      <DependentUpon>netPongClientChatForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="netPongClientKeySetterForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>netPongClientKeySetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="netPongClientKeySettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>netPongClientKeySettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="netPongClientDirectXSettingsForm.resx">
+      <DependentUpon>netPongClientDirectXSettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="netPongClientGameForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>netPongClientGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="netPongClientMessageForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>netPongClientMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.DirectX">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.DirectX.Direct3D">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.DirectX.Direct3DX">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.DirectX.DirectInput">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.DirectX.DirectSound">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="netPongClientNG.netPongClientChatForm" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientChatForm.cs</FileName>
+      <HashCode>AAAAACEAACAwBAIAAAKGAAESAIgAAAAAAAQAAAQCAkA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientDirectXSettingsForm" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientDirectXSettingsForm.cs</FileName>
+      <HashCode>AAAAAAAAACAQAAAAAACEAAACACAIgAABQCABQAAgAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientGameForm">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientGameForm.cs</FileName>
+      <HashCode>ABhMOAGACSCFAUIGGAisYUYyhUIRb4GyAdCGAYIMQAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientKeySetterForm" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientKeySetterForm.cs</FileName>
+      <HashCode>AAAAEAAAASIgABAAAACAAAACAACCAAAAQAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientKeySettings" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientKeySettings.cs</FileName>
+      <HashCode>QgwAAAABAiI4AABiAACAIgNyAACBACQEgShIAQWEEBY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientLoginForm" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientLoginForm.cs</FileName>
+      <HashCode>AAAAAAIACiSBCAAKAACQAAECAEAJAADABGACAgIwEBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientMessageForm" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientMessageForm.cs</FileName>
+      <HashCode>AAAAQAQAACAAAAAQABCAAAACAAAAAAAAAAAQEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientProgram" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientProgram.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientTcpSocket" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientTcpSocket.cs</FileName>
+      <HashCode>BAEAAAEAAABAiAgCQEBEAgAAAAABAAAAACEADAQAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.netPongClientUdpGameSession" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientUDPGameSession.cs</FileName>
+      <HashCode>AAABgCAAQAAAIAAAAAAAAQEAAIAAAAIIAEgAAkAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netPongClientNG.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="netPongClientNG.netPongClientGlobals" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientProgram.cs</FileName>
+      <HashCode>AREEgAAAECgAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="netPongClientNG.netPongClientActionKeys" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>netPongClientKeySettings.cs</FileName>
+      <HashCode>ABBAAAgAAAIAgAAAQAABAAAACAAAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
